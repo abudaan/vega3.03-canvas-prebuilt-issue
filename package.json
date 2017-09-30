@@ -1,0 +1,20 @@
+{
+    "name": "vega3.03-canvas-prebuilt-issue",
+    "license": "MIT",
+    "author": "abudaan",
+    "repository": "git://github.com/abudaan/vega3.03-canvas-issue.git",
+    "scripts": {
+        "bundle": "browserify -t [babelify] index.js > bundle.js"
+    },
+    "dependencies": {
+        "vega": "3.0.3"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-plugin-transform-runtime": "^6.23.0",
+        "babel-preset-env": "^1.6.0",
+        "babel-preset-stage-0": "^6.24.1",
+        "babelify": "^7.3.0",
+        "browserify": "^14.4.0"
+    }
+}
